@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Property Film Studio | Real Estate Video & Visual Content",
+    "description": "Premium real estate video, photography, drone and social media content for property professionals in Braga, Guimarães and Porto, Portugal."
+  },
+  "nav": {
+    "work": "Work",
+    "services": "Services",
+    "process": "Process",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Let's Work Together →"
+  },
+  "hero": {
+    "kicker": "PROPERTY FILMS · DRONE · SOCIAL CONTENT",
+    "headline": "Make your property impossible to ignore.",
+    "body": "We create property films, social media videos and visual content designed to showcase what makes each property worth seeing.",
+    "ctaPrimary": "View Our Work",
+    "ctaSecondary": "Let's Work Together →",
+    "location": "Braga · Guimarães · Porto"
+  },
+  "selectedWork": {
+    "eyebrow": "Selected Work",
+    "walkthrough": {
+      "tag": "LUXURY VILLA",
+      "location": "Bom Jesus, Braga",
+      "kicker": "Cinematic Property Film",
+      "title": "Luxury Villa — Bom Jesus, Braga",
+      "description": "A cinematic property film created to highlight the architecture, privacy, outdoor scale and privileged location of this villa."
+    },
+    "aerial": {
+      "label": "Aerial",
+      "heading": "Location, scale and privacy from above.",
+      "body": "An aerial perspective designed to communicate the property's scale, surroundings and relationship with Braga."
+    },
+    "social": {
+      "label": "Social Content",
+      "heading": "Built for attention. Designed for social.",
+      "body": "A vertical video designed to capture attention and showcase the property's strongest selling points quickly and effectively."
+    }
+  },
+  "services": {
+    "heading": "Services",
+    "items": [
+      {
+        "number": "01",
+        "title": "Cinematic Walkthrough",
+        "body": "Cinematic property films designed to present the architecture, atmosphere, layout and strongest selling points of a property."
+      },
+      {
+        "number": "02",
+        "title": "Aerial Drone Video",
+        "body": "Aerial footage that communicates location, scale, architecture, landscape and the property's relationship with its surroundings."
+      },
+      {
+        "number": "03",
+        "title": "Agent-Led Branding",
+        "body": "On-camera property presentations and social content that help agents build a stronger personal brand while showcasing their listings."
+      },
+      {
+        "number": "04",
+        "title": "Social Media Reels",
+        "body": "Short-form vertical videos created for Instagram and TikTok, with strong hooks, pacing and visual storytelling."
+      },
+      {
+        "number": "05",
+        "title": "Premium Photography",
+        "body": "Polished, editorial-style photography for property listings, websites and social media."
+      }
+    ]
+  },
+  "why": {
+    "heading": "We don't just show properties. We make people want to see them.",
+    "body": "A great property deserves more than a sequence of rooms. We identify what makes each property special and turn those strengths into content designed to capture attention, communicate value and make potential buyers want to see it in person.",
+    "principles": [
+      {
+        "title": "Strategy",
+        "body": "We start with the selling points. Before we shoot, we identify what makes the property different and build the content around those strengths."
+      },
+      {
+        "title": "Attention",
+        "body": "A strong video needs to work in the first few seconds. We create content designed around how people actually consume Instagram, TikTok and other social platforms."
+      },
+      {
+        "title": "Quality",
+        "body": "Composition, movement, sound, colour and editing work together to elevate the property without making it look artificial or misleading."
+      }
+    ]
+  },
+  "process": {
+    "heading": "From Property to Content",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Plan",
+        "body": "We identify the property's strongest selling points and define the visual direction."
+      },
+      {
+        "number": "02",
+        "title": "Production",
+        "body": "We capture video, photography, drone footage and agent content."
+      },
+      {
+        "number": "03",
+        "title": "Post-Production",
+        "body": "Editing, music, colour, pacing and social media optimisation."
+      },
+      {
+        "number": "04",
+        "title": "Delivery",
+        "body": "Ready-to-publish content delivered for listings and social channels."
+      }
+    ]
+  },
+  "about": {
+    "heading": "About Me",
+    "paragraph1": "I'm Aykut Soyuk, a videographer and content creator based in Braga.",
+    "paragraph2": "For the past 4+ years, I've been creating video content for YouTube, Instagram and TikTok, handling both production and editing myself. I'm now bringing that experience into real estate, creating visual content that helps properties and agents stand out online.",
+    "facts": [
+      { "value": "4+ Years", "label": "Content Creation" },
+      { "value": "Video + Photography", "label": "Production & Editing" },
+      { "value": "Northern Portugal", "label": "Braga · Guimarães · Porto" }
+    ],
+    "social": {
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    }
+  },
+  "finalCta": {
+    "headline": "Have a property worth showcasing?",
+    "body": "Let's create something worth watching.",
+    "cta": "Get in touch →"
+  },
+  "footer": {
+    "descriptor": "Real Estate Video & Visual Content",
+    "location": "Braga · Guimarães · Porto",
+    "links": {
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "email": "Email"
+    },
+    "copyright": "© 2026 Property Film Studio"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "placeholderNotice": "Placeholder — real content to be added",
+    "comingSoon": "Coming soon"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Property Film Studio | Vídeo Imobiliário em Braga",
+    "description": "Vídeo imobiliário, fotografia, drone e conteúdo para redes sociais para profissionais do setor imobiliário em Braga, Guimarães e Porto."
+  },
+  "nav": {
+    "work": "Trabalhos",
+    "services": "Serviços",
+    "process": "Processo",
+    "about": "Sobre",
+    "contact": "Contacto",
+    "cta": "Vamos trabalhar juntos →"
+  },
+  "hero": {
+    "kicker": "VÍDEO IMOBILIÁRIO · DRONE · CONTEÚDO PARA REDES SOCIAIS",
+    "headline": "Faça o seu imóvel ser impossível de ignorar.",
+    "body": "Criamos filmes imobiliários, vídeos para redes sociais e conteúdo visual que valorizam o imóvel e despertam interesse em quem está a procurar casa.",
+    "ctaPrimary": "Ver trabalhos",
+    "ctaSecondary": "Falar comigo →",
+    "location": "Braga · Guimarães · Porto"
+  },
+  "selectedWork": {
+    "eyebrow": "Trabalhos Selecionados",
+    "walkthrough": {
+      "tag": "MORADIA DE LUXO",
+      "location": "Bom Jesus, Braga",
+      "kicker": "Filme Imobiliário Cinematográfico",
+      "title": "Moradia de Luxo — Bom Jesus, Braga",
+      "description": "Um filme imobiliário cinematográfico criado para destacar a arquitetura, a privacidade, a escala exterior e a localização privilegiada desta moradia."
+    },
+    "aerial": {
+      "label": "Imagens Aéreas",
+      "heading": "Localização, escala e privacidade vistas do alto.",
+      "body": "Uma perspetiva aérea para mostrar a dimensão do imóvel, a envolvente e a sua relação com Braga."
+    },
+    "social": {
+      "label": "Conteúdo para Redes Sociais",
+      "heading": "Construído para captar atenção. Pensado para redes sociais.",
+      "body": "Vídeo vertical pensado para captar atenção e apresentar os principais argumentos de venda de forma rápida e envolvente."
+    }
+  },
+  "services": {
+    "heading": "Serviços",
+    "items": [
+      {
+        "number": "01",
+        "title": "Vídeo Imobiliário Cinematográfico",
+        "body": "Filmes imobiliários cinematográficos pensados para apresentar a arquitetura, a atmosfera, a disposição dos espaços e os principais pontos fortes de cada imóvel."
+      },
+      {
+        "number": "02",
+        "title": "Vídeo Aéreo com Drone",
+        "body": "Imagens aéreas que comunicam a localização, a escala, a arquitetura, a paisagem e a relação do imóvel com a sua envolvente."
+      },
+      {
+        "number": "03",
+        "title": "Branding para Agentes",
+        "body": "Apresentações do imóvel diante da câmara e conteúdo para redes sociais que ajudam os agentes a construir uma marca pessoal mais forte enquanto dão destaque aos seus imóveis."
+      },
+      {
+        "number": "04",
+        "title": "Reels para Redes Sociais",
+        "body": "Vídeos verticais curtos criados para Instagram e TikTok, com hooks fortes, bom ritmo e storytelling visual."
+      },
+      {
+        "number": "05",
+        "title": "Fotografia Premium",
+        "body": "Fotografia cuidada, de estilo editorial, para anúncios, websites e redes sociais."
+      }
+    ]
+  },
+  "why": {
+    "heading": "Não mostramos apenas imóveis. Criamos desejo por eles.",
+    "body": "Um bom imóvel merece mais do que uma sequência de divisões. Identificamos aquilo que torna cada propriedade especial e transformamos esses pontos fortes em conteúdo pensado para captar atenção, transmitir valor e levar potenciais compradores a querer conhecer o imóvel.",
+    "principles": [
+      {
+        "title": "Estratégia",
+        "body": "Começamos pelos argumentos de venda. Antes de filmar, identificamos o que torna o imóvel diferente e construímos o conteúdo à volta dessas características."
+      },
+      {
+        "title": "Atenção",
+        "body": "Um bom vídeo precisa de funcionar nos primeiros segundos. Criamos conteúdo pensado para o comportamento de quem navega no Instagram, TikTok e outras plataformas."
+      },
+      {
+        "title": "Qualidade",
+        "body": "Composição, movimento, som, cor e edição trabalham em conjunto para valorizar o imóvel sem o fazer parecer artificial ou diferente da realidade."
+      }
+    ]
+  },
+  "process": {
+    "heading": "Do imóvel ao conteúdo",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Estratégia",
+        "body": "Identificamos os principais argumentos de venda e definimos a direção visual."
+      },
+      {
+        "number": "02",
+        "title": "Produção",
+        "body": "Captamos vídeo, fotografia, drone e conteúdo com o agente."
+      },
+      {
+        "number": "03",
+        "title": "Pós-produção",
+        "body": "Edição, música, cor, ritmo e otimização para redes sociais."
+      },
+      {
+        "number": "04",
+        "title": "Entrega",
+        "body": "Conteúdo final pronto a publicar nos seus anúncios e canais digitais."
+      }
+    ]
+  },
+  "about": {
+    "heading": "Sobre o Aykut",
+    "paragraph1": "Sou o Aykut, videógrafo e criador de conteúdos baseado em Braga.",
+    "paragraph2": "Há mais de 4 anos que crio conteúdos para YouTube, Instagram e TikTok, tratando pessoalmente da captação e da edição. Estou agora a aplicar essa experiência ao setor imobiliário, criando conteúdo visual que ajuda imóveis e agentes a destacar-se online.",
+    "facts": [
+      { "value": "4+ anos", "label": "Criação de Conteúdo" },
+      { "value": "Vídeo + Fotografia", "label": "Produção e Edição" },
+      { "value": "Norte de Portugal", "label": "Braga · Guimarães · Porto" }
+    ],
+    "social": {
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    }
+  },
+  "finalCta": {
+    "headline": "Tem um imóvel que merece destaque?",
+    "body": "Vamos criar algo que vale a pena ver.",
+    "cta": "Falar comigo →"
+  },
+  "footer": {
+    "descriptor": "Vídeo Imobiliário & Conteúdo Visual",
+    "location": "Braga · Guimarães · Porto",
+    "links": {
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "email": "Email"
+    },
+    "copyright": "© 2026 Property Film Studio"
+  },
+  "common": {
+    "skipToContent": "Avançar para o conteúdo",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "placeholderNotice": "Espaço reservado — conteúdo real a adicionar",
+    "comingSoon": "Em breve"
+  }
+}
