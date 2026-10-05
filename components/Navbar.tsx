@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
-const SECTIONS = ["work", "services", "process", "about", "contact"] as const;
+const SECTIONS = ["work", "services", "about", "contact"] as const;
 
 export function Navbar() {
   const t = useTranslations("nav");
@@ -87,7 +87,7 @@ export function Navbar() {
             ))}
           </nav>
           <div className="flex items-center justify-between border-t border-border px-8 py-8">
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
             <a
               href="#contact"
               onClick={() => setOpen(false)}
