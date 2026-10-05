@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { EMAIL, INSTAGRAM_URL, YOUTUBE_URL } from "@/content/site";
@@ -13,10 +14,14 @@ export function About() {
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
         <div className="grid gap-16 lg:grid-cols-[minmax(0,22rem)_1fr] lg:gap-20">
           <Reveal>
-            <div className="aspect-[4/5] w-full max-w-sm border border-border bg-[#eceae4] flex items-center justify-center">
-              <span className="font-display text-5xl tracking-tight text-ink-soft/50">
-                A.
-              </span>
+            <div className="relative aspect-[4/5] w-full max-w-sm border border-border bg-[#eceae4] flex items-center justify-center">
+              {/* <span className="font-display text-5xl tracking-tight text-ink-soft/50"> */}
+                <Image 
+                  src="/images/about/about.png"
+                  alt="Aykut Soyuk" 
+                  fill
+                  className="object-cover" />
+              {/* </span> */}
             </div>
           </Reveal>
 

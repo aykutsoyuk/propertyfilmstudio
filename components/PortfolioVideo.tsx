@@ -50,7 +50,7 @@ export function PortfolioVideo({
           onError={() => setFailed(true)}
           aria-label={label}
         >
-          <source src={src} type="video/mov" />
+          <source src={src} type="video/mp4" />
         </video>
       )}
       {!playing && (

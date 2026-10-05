@@ -18,16 +18,16 @@ export const projects: Project[] = [
     location: "Bom Jesus, Braga",
     category: "property-films",
     thumbnail: "/images/projects/bom-jesus-poster.jpeg",
-    video: "/videos/bom-jesus-film.mov",
+    video: "/videos/bom-jesus-film.mp4",
     videoType: "horizontal",
     featured: true,
     aerial: {
       thumbnail: "/images/projects/bom-jesus-aerial-poster.png",
-      video: "/videos/bom-jesus-aerial.mov",
+      video: "/videos/bom-jesus-aerial.mp4",
     },
     social: {
       thumbnail: "/images/projects/bom-jesus-social-poster.png",
-      video: "/videos/bom-jesus-social.mov",
+      video: "/videos/bom-jesus-social.mp4",
     },
   },
 ];
