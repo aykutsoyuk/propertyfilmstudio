@@ -20,11 +20,6 @@ export function HeroVideo() {
           onError={() => setFailed(true)}
           aria-hidden="true"
         >
-          <source
-            media="(max-width: 767px)"
-            src="/videos/bom-jesus-hero-vertical.mp4"
-            type="video/mp4"
-          />
           <source src="/videos/bom-jesus-hero.mp4" type="video/mp4" />
         </video>
       )}

@@ -6,7 +6,7 @@ const SLUGS = ["walkthrough.jpg", "drone.jpg", "agent-branding.jpg", "reels.jpg"
 
 export function Services() {
   const t = useTranslations("services");
-  const items = t.raw("items") as { number: string; title: string; body: string }[];
+  const items = t.raw("items") as { number: string; title: string }[];
 
   const [first, second, ...rest] = items;
   const [firstSlug, secondSlug, ...restSlugs] = SLUGS;
@@ -24,20 +24,14 @@ export function Services() {
           <Reveal>
             <ServiceCard
               large
-              number={first.number}
               title={first.title}
-              body={first.body}
-              video={`/videos/services/${firstSlug}.mp4`}
               poster={`/images/services/${firstSlug}`}
             />
           </Reveal>
           <Reveal delay={60}>
             <ServiceCard
               large
-              number={second.number}
               title={second.title}
-              body={second.body}
-              video={`/videos/services/${secondSlug}.mp4`}
               poster={`/images/services/${secondSlug}`}
             />
           </Reveal>
@@ -47,10 +41,7 @@ export function Services() {
           {rest.map((item, index) => (
             <Reveal key={item.number} delay={120 + index * 60}>
               <ServiceCard
-                number={item.number}
                 title={item.title}
-                body={item.body}
-                video={`/videos/services/${restSlugs[index]}.mp4`}
                 poster={`/images/services/${restSlugs[index]}`}
               />
             </Reveal>

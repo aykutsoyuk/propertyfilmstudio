@@ -20,6 +20,7 @@ export function About() {
                   src="/images/about/about.png"
                   alt="Aykut Soyuk" 
                   fill
+                  sizes="(min-width: 24rem) 24rem, 100vw"
                   className="object-cover" />
               {/* </span> */}
             </div>
