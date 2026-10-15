@@ -12,7 +12,7 @@ export function Services() {
   const [firstSlug, secondSlug, ...restSlugs] = SLUGS;
 
   return (
-    <section id="services" className="bg-bg py-28 lg:py-36">
+    <section id="services" className="bg-bg pb-28 lg:pb-36">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
         <Reveal>
           <h2 className="font-display text-3xl tracking-tight sm:text-5xl">

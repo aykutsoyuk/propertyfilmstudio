@@ -30,6 +30,42 @@ export const projects: Project[] = [
       video: "/videos/bom-jesus-social.mp4",
     },
   },
+  {
+    id: "ds-private-braga",
+    location: "DS Private, Braga",
+    category: "social-reels",
+    thumbnail: "",
+    video: "",
+    videoType: "vertical",
+    featured: false,
+    aerial: {
+      thumbnail: "",
+      video: "",
+    },
+    social: {
+      thumbnail: "/images/projects/amares-poster.png",
+      video: "/videos/amares-social-s.mp4",
+    },
+  },
+  {
+    id: "flavia-braga",
+    location: "Flavia Scalzo, Remax",
+    category: "social-reels",
+    thumbnail: "",
+    video: "",
+    videoType: "vertical",
+    featured: false,
+    aerial: {
+      thumbnail: "",
+      video: "",
+    },
+    social: {
+      thumbnail: "/images/projects/duplex-flavia-poster.png",
+      video: "/videos/duplex-flavia-social-s.mp4",
+    },
+  },
+  
 ];
 
 export const featuredProject = projects.find((project) => project.featured)!;
+export const reelsProjects = projects.map((project) => project.social);

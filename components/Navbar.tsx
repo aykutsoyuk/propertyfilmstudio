@@ -36,7 +36,7 @@ export function Navbar() {
           </nav>
 
           <div className="hidden items-center gap-6 lg:flex">
-            {/* <LanguageSwitcher /> */}
+            <LanguageSwitcher />
             <a
               href="#contact"
               className="group inline-flex items-center gap-1.5 text-sm font-medium tracking-wide"
@@ -87,7 +87,7 @@ export function Navbar() {
             ))}
           </nav>
           <div className="flex items-center justify-between border-t border-border px-8 py-8">
-            {/* <LanguageSwitcher /> */}
+            <LanguageSwitcher />
             <a
               href="#contact"
               onClick={() => setOpen(false)}

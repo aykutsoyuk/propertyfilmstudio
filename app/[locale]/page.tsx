@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { SelectedWork } from "@/components/SelectedWork";
+import { Collaborations } from "@/components/Collaborations";
 import { Services } from "@/components/Services";
 import { Why } from "@/components/Why";
 import { Process } from "@/components/Process";
@@ -22,6 +23,7 @@ export default async function HomePage({
       <main id="main" className="flex-1">
         <Hero />
         <SelectedWork />
+        <Collaborations />
         <Services />
         <Why />
         <Process />

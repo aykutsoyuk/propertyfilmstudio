@@ -45,7 +45,7 @@ export function Footer() {
 
         <div className="flex flex-col gap-4 border-t border-border pt-6 text-xs text-ink-soft sm:flex-row sm:items-center sm:justify-between">
           <p>{t("copyright")}</p>
-          {/* <LanguageSwitcher /> */}
+          <LanguageSwitcher />
         </div>
       </div>
     </footer>

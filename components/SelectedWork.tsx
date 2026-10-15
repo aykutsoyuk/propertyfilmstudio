@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { featuredProject } from "@/content/projects";
+import { featuredProject, reelsProjects } from "@/content/projects";
 import { PortfolioVideo } from "./PortfolioVideo";
 import { Reveal } from "./Reveal";
 
@@ -68,7 +68,7 @@ export function SelectedWork() {
 
         {/* Social reels */}
         <Reveal delay={100}>
-          <div className="mt-24 flex flex-col items-center gap-10 border-t border-white/10 pt-24 text-center lg:mt-32 lg:pt-32">
+          <div className="flex flex-col items-center gap-10 pt-24 text-center lg:pt-32">
             <div>
               <p className="text-xs font-medium tracking-[0.2em] text-white/50">
                 {t("social.label")}
@@ -80,13 +80,17 @@ export function SelectedWork() {
                 {t("social.body")}
               </p>
             </div>
-            <div className="w-full max-w-[300px]">
-              <PortfolioVideo
-                src={featuredProject.social.video}
-                poster={featuredProject.social.thumbnail}
-                videoType="vertical"
-                label={t("social.label")}
-              />
+            <div className="grid w-full max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {reelsProjects.map((project) => (
+                <div key={project.video} className="w-full min-w-0">
+                  <PortfolioVideo
+                    src={project.video}
+                    poster={project.thumbnail}
+                    videoType="vertical"
+                    label={t("social.label")}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </Reveal>

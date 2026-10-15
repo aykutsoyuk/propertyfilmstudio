@@ -10,7 +10,7 @@ export function About() {
   const facts = t.raw("facts") as { value: string; label: string }[];
 
   return (
-    <section id="about" className="bg-bg py-28 lg:py-36">
+    <section id="about" className="bg-bg pb-28 lg:pb-36">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
         <div className="grid gap-16 lg:grid-cols-[minmax(0,22rem)_1fr] lg:gap-20">
           <Reveal>
