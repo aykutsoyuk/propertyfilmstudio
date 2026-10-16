@@ -14,14 +14,14 @@ export type StillToMotion = {
 export const stillToMotion: StillToMotion[] = [
   {
     id: "render-to-reality",
-    image: "/images/visualisation/amares-bina.jpg",
+    image: "/images/visualisation/amares-bina.png",
     video: "/videos/visualisation/amares-bina-vid.mp4",
     layout: "side",
     featured: true,
   },
   {
     id: "interior-in-motion",
-    image: "/images/visualisation/amares-room.jpg",
+    image: "/images/visualisation/amares-room.png",
     video: "/videos/visualisation/amares-room-vid.mp4",
     layout: "side",
   },
