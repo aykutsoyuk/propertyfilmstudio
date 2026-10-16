@@ -5,6 +5,7 @@
   },
   "nav": {
     "work": "Trabalhos",
+    "visualisation": "Visualização",
     "services": "Serviços",
     "process": "Processo",
     "about": "Sobre",
@@ -20,23 +21,28 @@
     "location": "Braga · Guimarães · Porto"
   },
   "selectedWork": {
-    "eyebrow": "Trabalhos Selecionados",
-    "walkthrough": {
-      "tag": "MORADIA DE LUXO",
-      "location": "Bom Jesus, Braga",
-      "kicker": "Filme Imobiliário Cinematográfico",
-      "title": "Moradia de Luxo — Bom Jesus, Braga",
-      "description": "Um filme imobiliário cinematográfico criado para destacar a arquitetura, a privacidade, a escala exterior e a localização privilegiada desta moradia."
-    },
-    "aerial": {
-      "label": "Imagens Aéreas",
-      "heading": "Localização, escala e privacidade vistas do alto.",
-      "body": "Uma perspetiva aérea para mostrar a dimensão do imóvel, a envolvente e a sua relação com Braga."
-    },
-    "social": {
-      "label": "Conteúdo para Redes Sociais",
-      "heading": "Construído para captar atenção. Pensado para redes sociais.",
-      "body": "Vídeo vertical pensado para captar atenção e apresentar os principais argumentos de venda de forma rápida e envolvente."
+    "heading": "Trabalhos Selecionados",
+    "items": {
+      "bom-jesus-walkthrough": {
+        "label": "Moradia de Luxo · Bom Jesus, Braga",
+        "title": "Filme Imobiliário Cinematográfico",
+        "description": "Um filme imobiliário cinematográfico criado para destacar a arquitetura, a privacidade, a escala exterior e a localização privilegiada desta moradia."
+      },
+      "amares-reel": {
+        "label": "Reel · Amares Residência",
+        "title": "Visualização IA",
+        "description": "Um Reel vertical com uma transformação de edifício assistida por IA, do render à realidade."
+      },
+      "bom-jesus-drone": {
+        "label": "Imagens Aéreas · Bom Jesus, Braga",
+        "title": "Conteúdo com Drone",
+        "description": "Uma perspetiva aérea para mostrar a dimensão do imóvel, a envolvente e a sua relação com Braga."
+      },
+      "duplex-flavia-reel": {
+        "label": "Reel, Flavia Scalzo",
+        "title": "Branding para Agentes",
+        "description": "Um Reel vertical que apresenta o imóvel através do agente, reforçando a marca pessoal ao mesmo tempo que valoriza o anúncio."
+      }
     }
   },
   "collaborations": {
@@ -120,9 +126,18 @@
     "paragraph1": "Sou o Aykut, videógrafo e criador de conteúdos baseado em Braga.",
     "paragraph2": "Há mais de 4 anos que crio conteúdos para YouTube, Instagram e TikTok, tratando pessoalmente da captação e da edição. Estou agora a aplicar essa experiência ao setor imobiliário, criando conteúdo visual que ajuda imóveis e agentes a destacar-se online.",
     "facts": [
-      { "value": "4+ anos", "label": "Criação de Conteúdo" },
-      { "value": "Vídeo + Fotografia", "label": "Produção e Edição" },
-      { "value": "Norte de Portugal", "label": "Braga · Guimarães · Porto" }
+      {
+        "value": "4+ anos",
+        "label": "Criação de Conteúdo"
+      },
+      {
+        "value": "Vídeo + Fotografia",
+        "label": "Produção e Edição"
+      },
+      {
+        "value": "Norte de Portugal",
+        "label": "Braga · Guimarães · Porto"
+      }
     ],
     "social": {
       "instagram": "Instagram",
@@ -150,5 +165,32 @@
     "closeMenu": "Fechar menu",
     "placeholderNotice": "Espaço reservado — conteúdo real a adicionar",
     "comingSoon": "Em breve"
+  },
+  "visualisation": {
+    "eyebrow": "Visualização com IA",
+    "heading": "De imagens estáticas a histórias em movimento.",
+    "body": "Transforme renders arquitetónicos e imagens de imóveis em conteúdo cinematográfico em movimento. Ajude compradores e investidores a visualizar o potencial de um imóvel antes de a construção estar concluída.",
+    "badge": "Conceptual",
+    "note": "Visualizações conceptuais criadas para ilustrar o potencial. Não representam construção concluída.",
+    "items": {
+      "render-to-reality": {
+        "title": "Do Render à Realidade",
+        "description": "Um render arquitetónico transforma-se num edifício a erguer-se num terreno vazio."
+      },
+      "interior-in-motion": {
+        "title": "Interior em Movimento",
+        "description": "Um render de sala de estar ganha vida num clip cinematográfico de interior."
+      },
+      "fireplace": {
+        "title": "Transformação da Lareira",
+        "description": "De uma lareira vazia a uma lareira acesa."
+      },
+      "day-to-night": {
+        "title": "Do Dia para a Noite",
+        "description": "O mesmo imóvel, reimaginado ao anoitecer."
+      }
+    },
+    "imageLabel": "Imagem",
+    "videoLabel": "Vídeo IA"
   }
 }

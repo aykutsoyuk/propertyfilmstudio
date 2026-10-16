@@ -12,15 +12,15 @@ export function Services() {
   const [firstSlug, secondSlug, ...restSlugs] = SLUGS;
 
   return (
-    <section id="services" className="bg-bg pb-28 lg:pb-36">
+    <section id="services" className="bg-bg py-12 lg:py-16">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
         <Reveal>
-          <h2 className="font-display text-3xl tracking-tight sm:text-5xl">
+          <h2 className="font-display text-2xl tracking-tight sm:text-3xl">
             {t("heading")}
           </h2>
         </Reveal>
 
-        <div className="mt-16 grid gap-6 lg:grid-cols-2">
+        <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:gap-4">
           <Reveal>
             <ServiceCard
               large
@@ -37,7 +37,7 @@ export function Services() {
           </Reveal>
         </div>
 
-        <div className="mt-6 grid gap-6 sm:grid-cols-3">
+        <div className="mt-3 grid gap-3 sm:grid-cols-3 lg:mt-4 lg:gap-4">
           {rest.map((item, index) => (
             <Reveal key={item.number} delay={120 + index * 60}>
               <ServiceCard

@@ -13,7 +13,7 @@ export function ServiceCard({
   return (
     <article
       className={`group relative overflow-hidden bg-black text-white ${
-        large ? "aspect-[4/5] sm:aspect-[16/11]" : "aspect-[4/5]"
+        large ? "aspect-[16/9] lg:aspect-[21/9]" : "aspect-[16/9]"
       }`}
     >
       <CinematicPlaceholder />
@@ -26,10 +26,10 @@ export function ServiceCard({
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-black/10 transition-colors duration-700 group-hover:from-black/85" />
 
-      <div className="relative z-10 flex h-full items-end p-6 lg:p-8">
+      <div className="relative z-10 flex h-full items-end p-4 lg:p-5">
         <h3
           className={`font-display transition-transform duration-500 ease-out group-hover:-translate-y-1 ${
-            large ? "text-3xl sm:text-4xl" : "text-2xl"
+            large ? "text-xl sm:text-2xl" : "text-lg sm:text-xl"
           }`}
         >
           {title}

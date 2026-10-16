@@ -4,7 +4,7 @@ import { Hero } from "@/components/Hero";
 import { SelectedWork } from "@/components/SelectedWork";
 import { Collaborations } from "@/components/Collaborations";
 import { Services } from "@/components/Services";
-import { Why } from "@/components/Why";
+import { Visualisation } from "@/components/Visualisation";
 import { Process } from "@/components/Process";
 import { About } from "@/components/About";
 import { Footer } from "@/components/Footer";
@@ -23,11 +23,11 @@ export default async function HomePage({
       <main id="main" className="flex-1">
         <Hero />
         <SelectedWork />
-        <Collaborations />
+        <Visualisation />
         <Services />
-        <Why />
         <Process />
         <About />
+        <Collaborations />
       </main>
       <Footer />
     </>

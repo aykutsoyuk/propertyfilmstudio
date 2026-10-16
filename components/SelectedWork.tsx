@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { featuredProject, reelsProjects } from "@/content/projects";
+import { selectedWorks } from "@/content/videos";
 import { PortfolioVideo } from "./PortfolioVideo";
 import { Reveal } from "./Reveal";
 
@@ -7,93 +7,56 @@ export function SelectedWork() {
   const t = useTranslations("selectedWork");
 
   return (
-    <section id="work" className="bg-black py-28 text-white lg:py-36">
+    <section id="work" className="bg-black py-24 text-white lg:py-32">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
         <Reveal>
-          <p className="text-xs font-medium tracking-[0.25em] text-white/50">
-            {t("eyebrow")}
-          </p>
+          <h2 className="font-display text-4xl leading-[1.1] sm:text-5xl lg:text-6xl">
+            {t("heading")}
+          </h2>
         </Reveal>
 
-        {/* Featured — cinematic walkthrough */}
-        <Reveal delay={60}>
-          <div className="mt-8">
-            <PortfolioVideo
-              src={featuredProject.video}
-              poster={featuredProject.thumbnail}
-              videoType="horizontal"
-              label={t("walkthrough.title")}
-            />
-            <div className="mt-7 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-              <div>
-                <p className="text-xs font-medium tracking-[0.2em] text-white/50">
-                  {t("walkthrough.tag")} · {t("walkthrough.location")}
-                </p>
-                <h3 className="mt-3 font-display text-3xl sm:text-4xl">
-                  {t("walkthrough.title")}
-                </h3>
-                <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/65 lg:text-base">
-                  {t("walkthrough.description")}
-                </p>
-              </div>
-              <p className="shrink-0 text-xs font-medium tracking-[0.15em] text-white/40 sm:text-right">
-                {t("walkthrough.kicker")}
-              </p>
-            </div>
-          </div>
-        </Reveal>
+        {/* Driven by content/videos.ts: first horizontal film runs full width;
+            other horizontals take 9 columns and verticals 3 so a film + reel
+            share a row. */}
+        <div className="mt-14 grid grid-cols-12 gap-x-6 gap-y-16 lg:mt-20 lg:gap-x-10 lg:gap-y-20">
+          {selectedWorks.map((item, index) => {
+            const vertical = item.orientation === "vertical";
+            const span = vertical
+              ? "mx-auto w-full max-w-xs lg:col-span-3 lg:max-w-none"
+              : index === 0
+                ? "lg:col-span-12"
+                : "lg:col-span-9";
+            const key = `items.${item.id}`;
 
-        {/* Aerial */}
-        <Reveal delay={80}>
-          <div className="mt-24 grid gap-10 lg:mt-32 lg:grid-cols-[1.4fr_1fr] lg:items-center lg:gap-14">
-            <PortfolioVideo
-              src={featuredProject.aerial.video}
-              poster={featuredProject.aerial.thumbnail}
-              videoType="horizontal"
-              label={t("aerial.label")}
-            />
-            <div>
-              <p className="text-xs font-medium tracking-[0.2em] text-white/50">
-                {t("aerial.label")}
-              </p>
-              <h3 className="mt-4 font-display text-2xl sm:text-3xl">
-                {t("aerial.heading")}
-              </h3>
-              <p className="mt-4 max-w-md text-sm leading-relaxed text-white/65">
-                {t("aerial.body")}
-              </p>
-            </div>
-          </div>
-        </Reveal>
-
-        {/* Social reels */}
-        <Reveal delay={100}>
-          <div className="flex flex-col items-center gap-10 pt-24 text-center lg:pt-32">
-            <div>
-              <p className="text-xs font-medium tracking-[0.2em] text-white/50">
-                {t("social.label")}
-              </p>
-              <h3 className="mx-auto mt-4 max-w-lg font-display text-2xl sm:text-3xl">
-                {t("social.heading")}
-              </h3>
-              <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-white/65">
-                {t("social.body")}
-              </p>
-            </div>
-            <div className="grid w-full max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {reelsProjects.map((project) => (
-                <div key={project.video} className="w-full min-w-0">
-                  <PortfolioVideo
-                    src={project.video}
-                    poster={project.thumbnail}
-                    videoType="vertical"
-                    label={t("social.label")}
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </Reveal>
+            return (
+              <Reveal
+                key={item.id}
+                delay={index * 60}
+                className={`col-span-12 ${span}`}
+              >
+                <PortfolioVideo
+                  src={item.video}
+                  poster={item.poster}
+                  videoType={item.orientation}
+                  label={t.has(`${key}.title`) ? t(`${key}.title`) : item.id}
+                />
+                {t.has(`${key}.title`) && (
+                  <div className="mt-6 max-w-xl">
+                    <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/50">
+                      {t(`${key}.label`)}
+                    </p>
+                    <h3 className="mt-3 font-display text-2xl sm:text-3xl">
+                      {t(`${key}.title`)}
+                    </h3>
+                    <p className="mt-3 text-sm leading-relaxed text-white/65">
+                      {t(`${key}.description`)}
+                    </p>
+                  </div>
+                )}
+              </Reveal>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

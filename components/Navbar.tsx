@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
-const SECTIONS = ["work", "services", "about", "contact"] as const;
+const SECTIONS = ["work", "visualisation", "services", "about", "contact"] as const;
 
 export function Navbar() {
   const t = useTranslations("nav");

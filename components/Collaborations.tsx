@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { clients } from "@/content/clients";
 import { Reveal } from "./Reveal";
@@ -33,10 +34,12 @@ function LogoGroup({ hidden = false }: { hidden?: boolean }) {
 }
 
 export function Collaborations() {
+  const t = useTranslations("collaborations");
+
   if (clients.length === 0) return null;
 
   return (
-    <section className="overflow-hidden bg-bg py-10 lg:py-12">
+    <section aria-label={t("heading")} className="overflow-hidden bg-bg py-10 lg:py-12">
       <Reveal>
         <div className="marquee-mask">
           <div className="marquee-track flex w-max">

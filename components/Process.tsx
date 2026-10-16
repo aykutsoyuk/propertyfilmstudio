@@ -6,7 +6,7 @@ export function Process() {
   const steps = t.raw("steps") as { number: string; title: string; body: string }[];
 
   return (
-    <section id="process" className="bg-bg py-28 lg:py-36">
+    <section id="process" className="bg-bg py-12 lg:py-16">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
         <Reveal>
           <h2 className="font-display text-3xl tracking-tight sm:text-5xl">

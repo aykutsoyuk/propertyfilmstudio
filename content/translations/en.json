@@ -5,6 +5,7 @@
   },
   "nav": {
     "work": "Work",
+    "visualisation": "AI Visualisation",
     "services": "Services",
     "process": "Process",
     "about": "About",
@@ -20,23 +21,28 @@
     "location": "Braga · Guimarães · Porto"
   },
   "selectedWork": {
-    "eyebrow": "Selected Work",
-    "walkthrough": {
-      "tag": "LUXURY VILLA",
-      "location": "Bom Jesus, Braga",
-      "kicker": "Cinematic Property Film",
-      "title": "Luxury Villa — Bom Jesus, Braga",
-      "description": "A cinematic property film created to highlight the architecture, privacy, outdoor scale and privileged location of this villa."
-    },
-    "aerial": {
-      "label": "Aerial",
-      "heading": "Location, scale and privacy from above.",
-      "body": "An aerial perspective designed to communicate the property's scale, surroundings and relationship with Braga."
-    },
-    "social": {
-      "label": "Social Content",
-      "heading": "Built for attention. Designed for social.",
-      "body": "A vertical video designed to capture attention and showcase the property's strongest selling points quickly and effectively."
+    "heading": "Selected Works",
+    "items": {
+      "bom-jesus-walkthrough": {
+        "label": "Luxury Villa · Bom Jesus, Braga",
+        "title": "Cinematic Walkthrough",
+        "description": "A cinematic property film created to highlight the architecture, privacy, outdoor scale and privileged location of this villa."
+      },
+      "amares-reel": {
+        "label": "Social Reel · Amares Residence",
+        "title": "AI Visualisation",
+        "description": "A vertical Reel featuring an AI-assisted building transformation, from render to reality."
+      },
+      "bom-jesus-drone": {
+        "label": "Aerial · Bom Jesus, Braga",
+        "title": "Drone Content",
+        "description": "An aerial perspective designed to communicate the property's scale, surroundings and relationship with Braga."
+      },
+      "duplex-flavia-reel": {
+        "label": "Reel, Flavia Scalzo",
+        "title": "Agent Branding Reel",
+        "description": "A vertical Reel that presents the property through the agent, building a stronger personal brand alongside the listing."
+      }
     }
   },
   "collaborations": {
@@ -120,9 +126,18 @@
     "paragraph1": "I'm Aykut Soyuk, a videographer and content creator based in Braga.",
     "paragraph2": "For the past 4+ years, I've been creating video content for YouTube, Instagram and TikTok, handling both production and editing myself. I'm now bringing that experience into real estate, creating visual content that helps properties and agents stand out online.",
     "facts": [
-      { "value": "4+ Years", "label": "Content Creation" },
-      { "value": "Video + Photography", "label": "Production & Editing" },
-      { "value": "Northern Portugal", "label": "Braga · Guimarães · Porto" }
+      {
+        "value": "4+ Years",
+        "label": "Content Creation"
+      },
+      {
+        "value": "Video + Photography",
+        "label": "Production & Editing"
+      },
+      {
+        "value": "Northern Portugal",
+        "label": "Braga · Guimarães · Porto"
+      }
     ],
     "social": {
       "instagram": "Instagram",
@@ -132,7 +147,7 @@
   "finalCta": {
     "headline": "Have a property worth showcasing?",
     "body": "Let's create something worth watching.",
-    "cta": "Get in touch →"
+    "cta": "Get in Touch →"
   },
   "footer": {
     "descriptor": "Real Estate Video & Visual Content",
@@ -150,5 +165,32 @@
     "closeMenu": "Close menu",
     "placeholderNotice": "Placeholder — real content to be added",
     "comingSoon": "Coming soon"
+  },
+  "visualisation": {
+    "eyebrow": "AI Visualisation",
+    "heading": "From Still Images to Moving Stories.",
+    "body": "Turn architectural renders and property images into cinematic motion content. Help buyers and investors visualise a property's potential before construction is complete.",
+    "badge": "Conceptual",
+    "note": "Conceptual visualisations created to illustrate potential. They do not depict finished construction.",
+    "items": {
+      "render-to-reality": {
+        "title": "Render to Reality",
+        "description": "An architectural render becomes a building rising from an empty plot."
+      },
+      "interior-in-motion": {
+        "title": "Interior in Motion",
+        "description": "A living room render brought to life as a cinematic interior clip."
+      },
+      "fireplace": {
+        "title": "Fireplace Transformation",
+        "description": "From an empty fireplace to a warm, lit fire."
+      },
+      "day-to-night": {
+        "title": "Day to Night",
+        "description": "The same property, reimagined after dark."
+      }
+    },
+    "imageLabel": "Image",
+    "videoLabel": "AI video"
   }
 }
