@@ -192,5 +192,8 @@
     },
     "imageLabel": "Imagem",
     "videoLabel": "Vídeo IA"
+  },
+  "schema": {
+    "jobTitle": "Videógrafo e criador de conteúdos"
   }
 }

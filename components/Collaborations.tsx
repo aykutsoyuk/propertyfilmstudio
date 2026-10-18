@@ -4,7 +4,7 @@ import { clients } from "@/content/clients";
 import { Reveal } from "./Reveal";
 
 // Repeat the list so one group is always wider than the viewport.
-const REPEATS = 3;
+const REPEATS = 2;
 
 function LogoGroup({ hidden = false }: { hidden?: boolean }) {
   return (

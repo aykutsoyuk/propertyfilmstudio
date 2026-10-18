@@ -192,5 +192,8 @@
     },
     "imageLabel": "Image",
     "videoLabel": "AI video"
+  },
+  "schema": {
+    "jobTitle": "Videographer & content creator"
   }
 }
